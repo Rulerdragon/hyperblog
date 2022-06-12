@@ -5,6 +5,19 @@ body
     font-family: "courier";
     font-size: 16px;
 }
+
+#cabecera
+{
+    background: blue;
+    box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.75);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+
+
 #container
 {
     width: 70%;
@@ -14,7 +27,12 @@ body
     margin: 0 auto;
 }
 
-#container
+#container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    padding: 1em;
 }
